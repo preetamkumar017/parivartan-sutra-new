@@ -1,1 +1,17 @@
+# environment
 .env
+
+# CI4 writable files
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+
+# uploads
+/public/uploads/*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# vendor (optional if composer install used)
+# /vendor/
